@@ -1,16 +1,37 @@
-# React + Vite
+# DevLens 🔍
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A live JSON visualizer built with React. Paste any JSON and instantly see it as a clean, color-coded, collapsible tree.
 
-Currently, two official plugins are available:
+## 🌐 Live Demo
+[dev-lens-self.vercel.app](https://dev-lens-self.vercel.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## ✨ Features
+- Live JSON tree visualization
+- Color coded by type — strings, numbers, booleans, arrays, objects
+- Collapsible and expandable nested nodes
+- JSON stats bar — keys, depth, strings, numbers, booleans
+- Copy formatted JSON to clipboard
+- Error handling for invalid JSON
+- Emerald Noir dark theme
 
-## React Compiler
+## 🛠 Tech Stack
+- React
+- Vite
+- CSS
+- Git
+- Vercel
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 💡 Concepts Used
+- Recursive React components
+- useState for state management
+- Controlled inputs
+- Error handling with try/catch
+- JavaScript typeof and Array.isArray
+- Object.entries for JSON traversal
+- Clipboard API
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 Run Locally
+git clone https://github.com/Esthercodes643/DevLens.git
+cd DevLens
+npm install
+npm run dev
